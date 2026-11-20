@@ -10,5 +10,4 @@ INSERT INTO etudiants (nom, prenom, email, ville, date_naissance, note) VALUES
 ('Chraibi', 'Mehdi', 'mehdi.chraibi@example.com', 'Agadir', '2005-12-05', 11.50),
 ('Lahlou', 'Meryem', 'meryem.lahlou@example.com', 'Rabat', '2004-02-25', 16.75);
 
--- Vérifier l'insertion.
 SELECT * FROM etudiants;
