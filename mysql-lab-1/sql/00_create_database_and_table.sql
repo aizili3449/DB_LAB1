@@ -1,6 +1,3 @@
--- Lab 1 : création de la base de données et de la table principale.
--- Attention : la table etudiants est supprimée puis recréée.
-
 CREATE DATABASE IF NOT EXISTS lab1_gestion_etudiants
     CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;
@@ -24,6 +21,5 @@ CREATE TABLE etudiants (
     CONSTRAINT chk_etudiants_note CHECK (note BETWEEN 0 AND 20)
 ) ENGINE=InnoDB;
 
--- Afficher la base sélectionnée et la structure de la table.
 SELECT DATABASE() AS base_selectionnee;
 DESCRIBE etudiants;
