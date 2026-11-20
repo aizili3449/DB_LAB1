@@ -1,30 +1,21 @@
-# MySQL Lab 1 – Prise en main de MySQL
+# MySQL Lab 1
 
-Ce TP présente les opérations de base avec MySQL : création d'une base de données et d'une table, insertion, consultation, modification et suppression de données.
+## 1. Création de la base de données et de la table
 
-## Scripts SQL
+![Création](mysql-lab-1/screenshots/00_create_database_and_table.png)
 
-Les scripts se trouvent dans le dossier `sql/` et doivent être exécutés dans l'ordre :
+## 2. Insertion des données
 
-1. `00_create_database_and_table.sql`
-2. `01_insert_data.sql`
-3. `02_select_queries.sql`
-4. `03_update_delete.sql`
-5. `04_verification.sql`
+![Insertion](mysql-lab-1/screenshots/01_insert_data.png)
 
-## Captures d'écran
+## 3. Requêtes SELECT
 
-### 1. Connexion à MySQL
-![Connexion à MySQL](screenshots/01-connexion-mysql.png)
+![SELECT](mysql-lab-1/screenshots/02_select_queries.png)
 
-### 2. Création de la base et de la table
-![Création de la base et de la table](screenshots/02-creation-table.png)
+## 4. UPDATE et DELETE
 
-### 3. Insertion des données
-![Insertion des données](screenshots/03-insertion.png)
+![Update Delete](mysql-lab-1/screenshots/03_update_delete.png)
 
-### 4. Requêtes SELECT
-![Requêtes SELECT](screenshots/04-requetes-select.png)
+## 5. Vérification
 
-### 5. UPDATE et DELETE
-![UPDATE et DELETE](screenshots/05-update-delete.png)
+![Vérification](mysql-lab-1/screenshots/04_verification.png)
