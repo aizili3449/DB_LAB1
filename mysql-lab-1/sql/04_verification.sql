@@ -1,5 +1,3 @@
--- Vérifications finales du Lab 1.
-
 USE lab1_gestion_etudiants;
 
 SHOW TABLES;
